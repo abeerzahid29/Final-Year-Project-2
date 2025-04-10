@@ -1,0 +1,5 @@
+python3 -m venv env
+./env/scripts/activate
+pip intstall -r requirements.txt
+python3 manage.py migrate
+python3 manage.py runserver
